@@ -39,13 +39,18 @@ lista1 =["q","w","e","r"]
 lista2 =["i","u","y","t"]
 for v1, v2 in zip(lista1, lista2):
     print (v1, v2)
-'''
 
 listaDeNomes = ['André', 'Felipe', 'Oliveira']
 for nome in listaDeNomes:
     print(nome)
 else:
     print("Todos os nomes foram listados!")
+'''
+#Continue - interrompe um ciclo
+
+count = -1
+while count < 5:
+    count +=1
+    if count == 3: continue
+    print(count)
     
-
-
